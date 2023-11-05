@@ -1,0 +1,44 @@
+.home{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: right;
+  position: relative;
+  padding: 2rem 0rem;
+  padding-left: 2rem 0rem;
+  text-align: center;
+  background: linear-gradient(to right, #121212, #02177e); 
+  background-color: #1d1b1b;
+  color: #f0f0f0;
+}
+.image{
+  /* Set a maximum width to prevent image overflow */
+  /* Add a border with rounded corners */
+  /* border: 2px solid #333; */
+  border-radius: 8px;
+  padding-left: 5px;
+  max-width: 30%;
+  height: 70%; /* Maintain the image's aspect ratio */
+  /* background-color: #0f1348; */
+
+  /* margin-left: 5px; */
+  display: block;
+  margin-left: 80px;
+  margin-top:70px;
+  /* margin-right: auto; */
+  width: 50%;
+}
+.intro{
+  text-align: left;
+  margin-top: 140px;
+  margin-right: 70px;
+  margin-left: 90px;
+}
+.heading{
+  font-size: 44px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2{
+  font-size: 44px;
+  color: #999999;
+}
