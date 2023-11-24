@@ -3,9 +3,14 @@ import '../Style/About.css';
 
 const About = () => {
   return (
+    <>
     <div className="about">
-      <p>I am a software engineer with a passion for creating beautiful and functional web applications.</p>
+      <h1 className='intro'>Who is Siddharth?</h1>
     </div>
+    <div className="box">
+      
+    </div>
+    </>
   );
 };
 
