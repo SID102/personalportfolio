@@ -12,3 +12,10 @@
   background-color: #1d1b1b;
   color: #f0f0f0;
 }
+.intro{
+  text-align: left;
+  margin-top: 40px;
+  margin-right: 70px;
+  margin-left: 90px;
+  font-family: cursive;
+}

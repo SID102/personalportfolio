@@ -11,3 +11,21 @@
   background-color: #1d1b1b;
   color: #f0f0f0;
 }
+.image3 {
+  height: 84px; /* Example height */
+  width: auto;
+  margin-left:355px;
+  margin-top:200px;/* Spacing between icons */
+}
+.image4 {
+  height: 100px; /* Example height */
+  width: auto;
+  margin-left:90px;
+  margin-top:200px;/* Spacing between icons */
+}
+.image5 {
+  height: 84px; /* Example height */
+  width: auto;
+  margin-left:90px;
+  margin-top:200px;/* Spacing between icons */
+}
