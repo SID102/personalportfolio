@@ -1,8 +1,11 @@
 import React from 'react';
 import {  Link } from "react-router-dom";
 import "../Style/Navbar.css";
+import emailIcon from "../Icons/gmail.png";
 
 export default function Navbar() {
+  const resumeUrl="https://drive.google.com/file/d/1b8rxOs0vrc-Hxk6dX9syNJEu2jUKHrLo/view?usp=sharing";
+  const emailAddress="siddharthsingh002018@gmail.com";
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
@@ -26,6 +29,14 @@ export default function Navbar() {
       <div
         className="navigation-menu">
         <ul>
+          <li>
+            <a  href={`mailto:${emailAddress}`} target="_blank" rel="noopener noreferrer">
+              <img className="image1"src={emailIcon} alt="email" />
+            </a>
+          </li>
+          <li>
+            <a href={resumeUrl} target="_blank" rel="noopener noreferrer">Resume</a>
+          </li>
           <li>
             <a href="/About">About</a>
           </li>
